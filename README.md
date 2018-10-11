@@ -1,11 +1,26 @@
-# Mobile Application Testing
+# Mobile Test Frameworks
 
-## Einleitung
-_Eine kurze Beschreibung des Themas_
-Innerhalb meines Diplomprojektes bin ich als Projektleiter verantwortlich für die App und deren Qualität. Deswegen möchte ich sicherstellen, dass die iOS- und Android-Applikationen des Drei-Friendfinders den Ansprüchen der Stakeholder und von uns entsprechen.
-Aufgrund dessen werde ich mich mit dem Testen von mobilen Applikationen beschäftigen, innerhalb vom Vertiefungsunterricht in Systemtechnick.
-
-
+## Was ist ein Framework
+Frameworks dienen als Grundlage um bestimmte Sachen zu implementieren. Zum Beispiel kann das Framework Bootstrap von Twitter genutzt werden um eine Basis für das Design zu haben. Auf diese kann dann weiter aufgebaut werden, um das Design zu personalisieren.
+Solche Fundamente wurden schon für viele verschiedene Verwendungszwecke entwickelt. Zu diesen zählen, zum Beispiel:
+* Application Frameworks
+* Web Frameworks
+* Test Frameworks
+* ...
 
 ## Beschreibung
-_Wo und was findet man in dem Repository_
+Innerhalb der Vertiefung werden nur Test Frameworks berücksichtigt, welche für die Testung von mobilen Applikationen auf Android und iOS genutzt werden.
+
+### Leitfragen
+
+Folgende Fragen sollen beantwortet werden:
+
+* Welche Test Frameworks existieren für mobile Applikationen? (Vorteile/Nachteile)
+* Welche Teile der Applikation können mit diesen getestet werden bzw. Was wird von diesen Frameworks getestet?
+* Wie erstelle ich die Tests? Wie führe ich sie aus? Wie werden die Ergebnisse angezeigt? (Beispiele)
+
+## Overleaf
+[Latex Protokoll](https://www.overleaf.com/read/xzsmcybkbnvd)
+
+## Quellen
+[https://techterms.com/definition/framework](https://techterms.com/definition/framework)
