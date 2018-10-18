@@ -24,4 +24,5 @@ Folgende Fragen sollen beantwortet werden:
 
 ## Quellen
 Framework, Verfügbar unter: [https://techterms.com/definition/framework](https://techterms.com/definition/framework) [abgerufen am 11.10.2018]
+
 Test apps on Android, Verfügbar unter: [https://developer.android.com/training/testing/](https://developer.android.com/training/testing/) [abgerufen am 18.10.2018]
