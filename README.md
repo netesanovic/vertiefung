@@ -22,6 +22,10 @@ Folgende Fragen sollen beantwortet werden:
 ## Overleaf
 [Latex Protokoll](https://www.overleaf.com/read/xzsmcybkbnvd)
 
+## Probleme
+
+Beim Switch-Case habe ich die Breaks vergessen. Erst nachdem ich mit den Unit Tests die Operations überprüft habe und dann mit dem Debugger durchgegangen bin, habe ich beim Weiterschalten gemerkt, dass immer alle Operationen durchgeführt wurden. Breaks vergessen :)
+
 ## Quellen
 Framework, Verfügbar unter: [https://techterms.com/definition/framework](https://techterms.com/definition/framework) [abgerufen am 11.10.2018]
 
