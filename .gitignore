@@ -1,0 +1,12 @@
+# Gradle files
+.gradle/
+build/
+
+.idea/
+
+Calc/gradlew
+Calc/gradlew.bat
+
+Calc/gradle/
+
+Calc/.idea/
