@@ -22,6 +22,10 @@ Folgende Fragen sollen beantwortet werden:
 ## Overleaf
 [Latex Protokoll](https://www.overleaf.com/read/xzsmcybkbnvd)
 
+## Unit Tests ausführen
+
+Um die Unit Tests auszuführen, kann man den Command ```gradle test``` benutzen. Eine html-Datei mit den Testresultaten ist unter **path_to_project/module_name/build/reports/tests**. Eine xml-Datei mit den Testresultaten ist unter **path_to_project/module_name/build/test_results**.
+
 ## Probleme
 
 Beim Switch-Case habe ich die Breaks vergessen. Erst nachdem ich mit den Unit Tests die Operations überprüft habe und dann mit dem Debugger durchgegangen bin, habe ich beim Weiterschalten gemerkt, dass immer alle Operationen durchgeführt wurden. Breaks vergessen :)
@@ -30,3 +34,6 @@ Beim Switch-Case habe ich die Breaks vergessen. Erst nachdem ich mit den Unit Te
 Framework, Verfügbar unter: [https://techterms.com/definition/framework](https://techterms.com/definition/framework) [abgerufen am 11.10.2018]
 
 Test apps on Android, Verfügbar unter: [https://developer.android.com/training/testing/](https://developer.android.com/training/testing/) [abgerufen am 18.10.2018]
+
+
+Test from the command line, Verfügbar unter: [https://developer.android.com/studio/test/command-line](https://developer.android.com/studio/test/command-line) [abgerufen am 10.01.2019]
