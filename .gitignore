@@ -3,10 +3,11 @@
 build/
 
 .idea/
+*.iml
+Calc/.idea/
 
 Calc/gradlew
 Calc/gradlew.bat
-
 Calc/gradle/
 
-Calc/.idea/
+Calc/local.properties
