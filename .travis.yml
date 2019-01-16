@@ -1,4 +1,3 @@
-os: windows
 language: android
 before_script: cd Calc
 android:
