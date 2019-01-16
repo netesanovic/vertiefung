@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Calc</string>
+    <string name="plus">+</string>
+    <string name="minus">-</string>
+    <string name="multiply">*</string>
+    <string name="divide">+</string>
 </resources>
