@@ -1,10 +1,9 @@
 # Gradle files
-.gradle/
-build/
+Calc/.gradle/
 
-.idea/
-*.iml
 Calc/.idea/
+*.iml
+.idea/
 
 Calc/gradlew
 Calc/gradlew.bat
