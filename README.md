@@ -50,7 +50,13 @@ lintOptions {
 ```
 Hierdurch wird Travis nicht mehr unterbrochen, falls ein Lint-Fehler auftritt.
 
+Derzeit hat TravisCI noch einen Fehler, da keine für Instrumented Tests noch kein Virtual Device definiert wurde, in .travis.yml.
 
+## Todos
+
+* [ ] TravisCI fertig aufsetzen
+* [ ] Instrumented Tests erstellen
+* [ ] UI Tests erstellen
 
 ## Quellen
 Framework, Verfügbar unter: [https://techterms.com/definition/framework](https://techterms.com/definition/framework) [abgerufen am 11.10.2018]
