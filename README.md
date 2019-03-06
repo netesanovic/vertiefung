@@ -54,6 +54,7 @@ Derzeit hat TravisCI noch einen Fehler, da keine für Instrumented Tests noch ke
 
 ## Todos
 
+* [ ] Docker mit Android SDK
 * [ ] TravisCI fertig aufsetzen
 * [ ] Instrumented Tests erstellen
 * [ ] UI Tests erstellen
