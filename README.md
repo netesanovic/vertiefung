@@ -26,6 +26,9 @@ Folgende Fragen sollen beantwortet werden:
 
 Bevor man die Tests ausführen kann, muss man den Seicherort der Android-Sdk festlegen, entweder innerhalb der **local.properties** im Root-Folder des Projektes unter dem Attribut **sdk.dir** (Beispiel in Windows: sdk.dir=C\:\\Users\\Nemanja\\AppData\\Local\\Android\\Sdk), oder mithilfe einer Umgebnungsvariable unter dem Namen ANDROID_HOME.
 
+Ist keine Android-Sdk installiert, kann man mithilfe von Docker das `Dockerfile` nutzen um ein Docker-Image zu erstellen, mit folgendem Befehl: `docker build -t [image name] .`, davor muss man allerdings in den Ordner mit dem `Dockerfile` navigieren. Hat man das Image erstellt, kann dieses mit `docker run [image name]` ausgeführen. Hierfür muss natürlich Docker installiert sein und auf UNIX-Systemen, sowie auf Windows Pro funktioniert dies ohne größere Schwierigkeiten.
+Um Docker auf Windows ohne HyperV auszuführen, benötigt man zusätzlich noch eine VM wie VirtualBox. Mithilfe von `docker-machine create [machine name]` wird dann eine Docker-Machine erstellt. Mit `docker-machine start [machine name]` wird Machine dann gestartet und mit  `docker-machine ssh [machine name]` wird eine SSH-Verbindung zu der Docker-Machine (VM in VirtualBox) erstellt. Die im vorherigen Absatz angegebenen Befehle können daraufhin ausgeführt werden.
+
 Um die Unit Tests auszuführen, kann man den Command ```gradle test``` benutzen. Eine html-Datei mit den Testresultaten ist unter **path_to_project/module_name/build/reports/tests**. Eine xml-Datei mit den Testresultaten ist unter **path_to_project/module_name/build/test_results**.
 
 ## Probleme
@@ -54,7 +57,7 @@ Derzeit hat TravisCI noch einen Fehler, da keine für Instrumented Tests noch ke
 
 ## Todos
 
-* [ ] Docker mit Android SDK
+* [x] Docker mit Android SDK
 * [ ] TravisCI fertig aufsetzen
 * [ ] Instrumented Tests erstellen
 * [ ] UI Tests erstellen
